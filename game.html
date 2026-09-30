@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            🧠 Memory Game
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="game.html">
+                Play Game
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+            <button onclick="logout()">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <main class="game-container">
+
+
+        <div class="game-header">
+
+            <div>
+
+                <h1>
+                    Memory Challenge 🧠
+                </h1>
+
+                <p>
+                    Match all the cards!
+                </p>
+
+            </div>
+
+
+            <div class="game-coins">
+
+                🪙
+
+                <span id="gameCoins">
+                    50
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Game Information -->
+
+        <div class="game-info">
+
+            <div>
+
+                <span>
+                    ⏱️
+                </span>
+
+                Time
+
+                <strong id="timer">
+                    00:00
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    🔢
+                </span>
+
+                Moves
+
+                <strong id="moves">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    🪙
+                </span>
+
+                Earned
+
+                <strong id="earnedCoins">
+                    0
+                </strong>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Cards -->
+
+        <div
+            id="gameBoard"
+            class="game-board"
+        ></div>
+
+
+
+        <button
+            class="restart-button"
+            onclick="startGame()"
+        >
+            🔄 Restart Game
+        </button>
+
+
+    </main>
+
+
+
+    <!-- Win Popup -->
+
+    <div
+        id="winPopup"
+        class="popup-overlay"
+    >
+
+        <div class="win-box">
+
+            <div class="win-icon">
+                🎉
+            </div>
+
+            <h1>
+                YOU WIN!
+            </h1>
+
+            <p>
+                You matched all the cards!
+            </p>
+
+
+            <div class="reward">
+
+                🪙
+
+                <span id="winReward">
+                    +130
+                </span>
+
+                Coins
+
+            </div>
+
+
+            <h2>
+                Total Coins:
+                <span id="finalCoins">
+                    0
+                </span>
+                🪙
+            </h2>
+
+
+            <div class="win-buttons">
+
+                <button onclick="startGame()">
+                    🧠 Play Again
+                </button>
+
+
+                <button
+                    onclick="goHome()"
+                    class="home-button"
+                >
+                    🏠 Home
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

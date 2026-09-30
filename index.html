@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Memory Game - Home</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">
+            🧠 Memory Game
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="game.html">
+                Play Game
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+            <button onclick="logout()">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Home -->
+
+    <main class="home-container">
+
+
+        <section class="hero-section">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    WELCOME BACK 👋
+                </p>
+
+                <h1>
+                    Hello,
+                    <span id="homeName">
+                        Player
+                    </span>!
+                </h1>
+
+                <p>
+                    Test your memory, match the cards
+                    and collect coins.
+                </p>
+
+
+                <a
+                    href="game.html"
+                    class="play-button"
+                >
+                    🧠 Play Memory Game
+                </a>
+
+            </div>
+
+
+            <div class="coin-display">
+
+                <div class="big-coin">
+                    🪙
+                </div>
+
+                <h2 id="homeCoins">
+                    50
+                </h2>
+
+                <p>
+                    Your Coins
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Statistics -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <span>🪙</span>
+
+                <h2 id="coinStat">
+                    50
+                </h2>
+
+                <p>
+                    Coins
+                </p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <span>🏆</span>
+
+                <h2 id="winsStat">
+                    0
+                </h2>
+
+                <p>
+                    Games Won
+                </p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <span>🎮</span>
+
+                <h2 id="gamesStat">
+                    0
+                </h2>
+
+                <p>
+                    Games Played
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- How To Play -->
+
+        <section class="info-section">
+
+            <h2>
+                How To Play 🎮
+            </h2>
+
+
+            <div class="info-cards">
+
+                <div class="info-card">
+
+                    <div>
+                        1️⃣
+                    </div>
+
+                    <h3>
+                        Flip
+                    </h3>
+
+                    <p>
+                        Click a card to reveal it.
+                    </p>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <div>
+                        2️⃣
+                    </div>
+
+                    <h3>
+                        Match
+                    </h3>
+
+                    <p>
+                        Find two identical cards.
+                    </p>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <div>
+                        3️⃣
+                    </div>
+
+                    <h3>
+                        Collect
+                    </h3>
+
+                    <p>
+                        Match pairs to earn coins.
+                    </p>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <div>
+                        4️⃣
+                    </div>
+
+                    <h3>
+                        Win
+                    </h3>
+
+                    <p>
+                        Match every pair and win!
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
