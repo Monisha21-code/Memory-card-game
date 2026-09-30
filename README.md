@@ -62,3 +62,48 @@ Memory-Card-Game/
 ├── style.css
 ├── script.js
 └── README.md
+📊 Game Statistics
+
+The game keeps track of:
+
+- 🪙 Total Coins
+- 🎮 Games Played
+- 🏆 Games Won
+- 🔢 Moves
+- ⏱️ Time
+
+💾 Data Storage
+
+The project uses Browser Local Storage to save:
+
+- User information
+- Coins
+- Games Played
+- Games Won
+- Profile information
+
+«Note: This project is created for learning and educational purposes. The login system uses browser Local Storage and is not suitable for storing sensitive information in a real production application.»
+
+🚀 Future Improvements
+
+Some possible future improvements are:
+
+- Add different difficulty levels
+- Add more card themes
+- Add sound effects
+- Add a leaderboard
+- Add daily rewards
+- Add more animations
+- Add multiplayer support
+- Add a database for user accounts
+- Add more card pairs
+
+👩‍💻 Author
+
+Monisha Srinivasan
+
+B.Sc. IT Student
+
+📄 License
+
+This project is created for educational and learning purposes.
